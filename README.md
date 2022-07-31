@@ -31,4 +31,5 @@ SQL 연습 레포지토리
 ## 분석 기법
 
 ### 리텐션
+- [리텐션 계산법 정리(롤링 리텐션 실습 코드 포함)](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EB%A6%AC%ED%85%90%EC%85%98%20%EA%B3%84%EC%82%B0%EB%B2%95(%EB%A1%A4%EB%A7%81%EB%A6%AC%ED%85%90%EC%85%98%EC%8B%A4%EC%8A%B5%ED%8F%AC%ED%95%A8).md
 - [다음날 리텐션 분석](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EB%8B%A4%EC%9D%8C%EB%82%A0%20%EB%A6%AC%ED%85%90%EC%85%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.md)
