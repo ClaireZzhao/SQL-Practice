@@ -1,4 +1,4 @@
-'''
+```sql
 with records_preprocessed as (
   select r.customer_id
        , r.order_id
@@ -25,4 +25,4 @@ select first_order_month
     , count(distinct case when date_add(first_order_month, interval 11 month) = order_month then customer_id end) month11
 from records_preprocessed
 group by first_order_month
-'''
+```
