@@ -41,4 +41,5 @@ SQL 연습 레포지토리
 - [퍼널분석 계산법(sql코드포함)](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%ED%8D%BC%EB%84%90%EB%B6%84%EC%84%9D%EA%B3%84%EC%82%B0%EB%B2%95.md)
 - [다음날 리텐션 분석](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EB%8B%A4%EC%9D%8C%EB%82%A0%20%EB%A6%AC%ED%85%90%EC%85%98%20%EA%B5%AC%ED%95%98%EA%B8%B0.md)
 
-### [Stickiness](https://github.com/ClaireZzhao/SQL-Practice/blob/main/Stickiness.md) -> 우리 서비스에 딱 붙어있는지 측정하는 지표 -> WAU/MAU와 DAU를 함께 본다면 WAU/MAU만 볼 때 알 수 없었던 고객들의 방문 패턴을 알 수 있음
+### Stickiness
+- [Stickiness](https://github.com/ClaireZzhao/SQL-Practice/blob/main/Stickiness.md) -> 우리 서비스에 딱 붙어있는지 측정하는 지표 -> WAU/MAU와 DAU를 함께 본다면 WAU/MAU만 볼 때 알 수 없었던 고객들의 방문 패턴을 알 수 있음
