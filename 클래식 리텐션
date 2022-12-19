@@ -1,0 +1,28 @@
+'''
+with records_preprocessed as (
+  select r.customer_id
+       , r.order_id
+       , r.order_date
+       , c.first_order_date
+       , date_format(r.order_date, '%Y-%m-01') as order_month
+       , date_format(c.first_order_date, '%Y-%m-01') as first_order_month
+  from records as r 
+      inner join customer_stats as c on r.customer_id = c.customer_id
+)
+
+select first_order_month
+    , count(distinct customer_id) month0
+    , count(distinct case when date_add(first_order_month, interval 1 month) = order_month then customer_id end) month1
+    , count(distinct case when date_add(first_order_month, interval 2 month) = order_month then customer_id end) month2
+    , count(distinct case when date_add(first_order_month, interval 3 month) = order_month then customer_id end) month3
+    , count(distinct case when date_add(first_order_month, interval 4 month) = order_month then customer_id end) month4
+    , count(distinct case when date_add(first_order_month, interval 5 month) = order_month then customer_id end) month5
+    , count(distinct case when date_add(first_order_month, interval 6 month) = order_month then customer_id end) month6
+    , count(distinct case when date_add(first_order_month, interval 7 month) = order_month then customer_id end) month7
+    , count(distinct case when date_add(first_order_month, interval 8 month) = order_month then customer_id end) month8
+    , count(distinct case when date_add(first_order_month, interval 9 month) = order_month then customer_id end) month9
+    , count(distinct case when date_add(first_order_month, interval 10 month) = order_month then customer_id end) month10
+    , count(distinct case when date_add(first_order_month, interval 11 month) = order_month then customer_id end) month11
+from records_preprocessed
+group by first_order_month
+'''
