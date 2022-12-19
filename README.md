@@ -31,6 +31,11 @@ SQL 연습 레포지토리
 ## 분석 기법
 
 ### 리텐션
+
+클래식 리텐션 vs 롤링 리텐션
+- 클래식 리텐션: 구매주기가 긴 서비스에서는 클래식 리텐션을 사용하면 실제보다 많이 이탈했다고 잘못 이해할 수 있음[클래식 리텐션](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%ED%81%B4%EB%9E%98%EC%8B%9D%20%EB%A6%AC%ED%85%90%EC%85%98.md)
+- 롤링 리텐션: 최근 코호트일수록 리텐션 값이 낮게 계산되고, 이전 코호트일수록 리텐션 값이 올라갈 수밖에 없음, 다른 코호트(1월과 11월을 비교한다든지)와 단순 비교해서 보기가 어려움 (나중에라도 결제를 했으면 그 전 달에도 결재했다고 간주하기 때문) `숫자가 계속 바뀌기 때문에 보고용으로 적합하지 않을 수 있음`[롤링 리텐션]()
+
 - [리텐션 계산법 정리(sql코드포함)](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EB%A6%AC%ED%85%90%EC%85%98%20%EA%B3%84%EC%82%B0%EB%B2%95(%EB%A1%A4%EB%A7%81%EB%A6%AC%ED%85%90%EC%85%98%EC%8B%A4%EC%8A%B5%ED%8F%AC%ED%95%A8).md)
 - [코호트 분석(sql코드포함)](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EC%BD%94%ED%98%B8%ED%8A%B8%EB%B6%84%EC%84%9D.md)
 - [퍼널분석 계산법(sql코드포함)](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%ED%8D%BC%EB%84%90%EB%B6%84%EC%84%9D%EA%B3%84%EC%82%B0%EB%B2%95.md)
