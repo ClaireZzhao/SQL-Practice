@@ -29,6 +29,10 @@ SQL 연습 레포지토리
 
 ### case when
 - [复旦大学每个用户8月份答题情况](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%E5%A4%8D%E6%97%A6%E5%A4%A7%E5%AD%A6%E6%AF%8F%E4%B8%AA%E7%94%A8%E6%88%B78%E6%9C%88%E4%BB%BD%E7%BB%83%E4%B9%A0%E6%83%85%E5%86%B5.md)
+
+### 사용자정의함수 
+- [사용자정의함수+limit사용법](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EC%82%AC%EC%9A%A9%EC%9E%90%EC%A0%95%EC%9D%98%ED%95%A8%EC%88%98.md)
+
 ## 분석 기법
 
 ### 리텐션
