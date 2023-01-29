@@ -1,17 +1,16 @@
 # SQL-Practice
 SQL 연습 레포지토리
 
-## [Query 문법]()
+## Query 문법
+### [DATE 함수](https://github.com/ClaireZzhao/SQL-Practice/blob/main/sql-functions.md)
 
-### DATE 함수
+### [like 연산자](https://github.com/ClaireZzhao/SQL-Practice/blob/main/sql-functions.md)
 
-### like 연산자 
+### [결과에 %를 붙이고 싶을때](https://github.com/ClaireZzhao/SQL-Practice/blob/main/sql-functions.md)
 
-### 결과에 %를 붙이고 싶을때
+### [pivot table](https://github.com/ClaireZzhao/SQL-Practice/blob/main/sql-functions.md)
 
-### pivot table
-
-### DML
+### [DML](https://github.com/ClaireZzhao/SQL-Practice/blob/main/sql-functions.md)
 
 ### not in
 - [모든 나라의 인구수가 25000000보다 적은 대륙을 구하는 예시](https://github.com/ClaireZzhao/SQL-Practice/blob/main/%EB%AA%A8%EB%93%A0%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%9D%B8%EA%B5%AC%EC%88%98%EA%B0%80%2025000000%EB%B3%B4%EB%8B%A4%20%EC%A0%81%EC%9D%80%20%EB%8C%80%EB%A5%99%EC%9D%84%20%EA%B5%AC%ED%95%98%EB%8A%94%20%EC%98%88%EC%8B%9C%20(not%20in%20%EC%82%AC%EC%9A%A9).md)
